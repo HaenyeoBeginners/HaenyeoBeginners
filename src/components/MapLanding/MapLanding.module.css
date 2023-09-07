@@ -1,0 +1,22 @@
+.landing {
+  padding-bottom: 40px;
+  cursor: pointer;
+}
+
+.title {
+  margin-bottom: 6px;
+  color: var(--light-gray-gray-900);
+}
+
+.paragraph {
+  color: var(--gray-500-info);
+}
+
+.mapImageContainer {
+  width: 350px;
+  height: 210px;
+  border-radius: 1rem;
+  border: 1px solid var(--gray-300);
+  margin: 0 auto;
+  background-image: url("../../../public/images/main_map.png");
+}
