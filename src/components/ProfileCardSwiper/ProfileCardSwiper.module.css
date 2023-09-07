@@ -1,0 +1,31 @@
+.swiperContainer {
+  position: relative;
+  right: 2%;
+  width: 350px;
+  height: 300px;
+  margin-bottom: 36px;
+}
+
+.swiper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.hashBtn {
+  padding: 9px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+.title svg {
+  margin-left: 8px;
+}

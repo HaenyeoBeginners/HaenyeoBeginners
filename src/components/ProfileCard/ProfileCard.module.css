@@ -1,0 +1,13 @@
+.card {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.imageContainer {
+  margin-right: 16px;
+}
+
+h5 .spanText {
+  color: var(--blue-main);
+}
