@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 134px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  margin-top: 24px;
+  background-color: var(--white);
+}
+
+.avatarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 32px;
+}
+
+.badge {
+  margin-bottom: 8px;
+}

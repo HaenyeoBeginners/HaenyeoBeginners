@@ -1,21 +1,3 @@
-.header {
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.header svg {
-  position: absolute;
-  top: 12px;
-  left: 20px;
-}
-
-.header button {
-  border: none;
-}
-
 .mapContainer {
   height: calc(100vh - 48px);
 }
