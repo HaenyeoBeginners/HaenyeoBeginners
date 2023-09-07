@@ -1,57 +1,63 @@
-{
-  "data": [
-    {
-      "title": "햇병아리의 도약 안나 해녀.",
-      "description": "신입이 들어왔어요~ 해녀 원정대 입단 성공기를 공개할게요.",
-      "image": "profile1.png",
-      "id": 1
-    },
+[
+  {
+    "title": "햇병아리의 도약 안나 해녀.",
+    "description": "신입이 들어왔어요~ 해녀 원정대 입단 성공기를 공개할게요.",
+    "image": "profile1.png",
+    "id": 1,
+    "name": "안나"
+  },
 
-    {
-      "title": "3일차 호기심 많은 주운디 해녀.",
-      "description": "바닷속 세상을 익히기 위해 이리저리 돌아다니고 있어요.",
-      "image": "profile2.png",
-      "id": 2
-    },
+  {
+    "title": "3일차 호기심 많은 주운디 해녀.",
+    "description": "바닷속 세상을 익히기 위해 이리저리 돌아다니고 있어요.",
+    "image": "profile2.png",
+    "id": 2,
+    "name": "주운디"
+  },
 
-    {
-      "title": "힘찬 물질 자랑하는 재이곱 해녀.",
-      "description": "정식 해녀가 된 지 1년째 되는 날! 채집한 뿔소라로 기념 파티했어요.",
-      "image": "profile3.png",
-      "id": 3
-    },
+  {
+    "title": "힘찬 물질 자랑하는 재이곱 해녀.",
+    "description": "정식 해녀가 된 지 1년째 되는 날! 채집한 뿔소라로 기념 파티했어요.",
+    "image": "profile3.png",
+    "id": 3,
+    "name": "재이곱"
+  },
 
-    {
-      "title": "주정 해녀만의 특별한 하루 루틴.",
-      "description": "행운이 따라오는 나만의 루틴, 하루라도 안 하면 허전해요",
-      "image": "profile4.png",
-      "id": 4
-    },
-    {
-      "title": "26살 바다 바라기 이랑이랑 해녀.",
-      "description": "오로지 바다만 바라보다가 최연소 해녀로 데뷔한 썰 들려줄게요.",
-      "image": "profile5.png",
-      "id": 5
-    },
+  {
+    "title": "주정 해녀만의 특별한 하루 루틴.",
+    "description": "행운이 따라오는 나만의 루틴, 하루라도 안 하면 허전해요",
+    "image": "profile4.png",
+    "id": 4,
+    "name": "주정"
+  },
+  {
+    "title": "26살 바다 바라기 이랑이랑 해녀.",
+    "description": "오로지 바다만 바라보다가 최연소 해녀로 데뷔한 썰 들려줄게요.",
+    "image": "profile5.png",
+    "id": 5,
+    "name": "이랑이랑"
+  },
 
-    {
-      "title": "종달리 막둥이 송햇살 해녀.",
-      "description": "나의 목표는 종달리 마스코트! 저만의 에너지를 보여줄게요.",
-      "image": "profile6.png",
-      "id": 6
-    },
-    {
-      "title": "삼둥이 엄마 솝희아 해녀 되다.",
-      "description": "아들만 셋, 삼둥이 엄마의 해녀 일지 놀러 오세요.",
-      "image": "profile7.png",
-      "id": 7
-    },
+  {
+    "title": "종달리 막둥이 송햇살 해녀.",
+    "description": "나의 목표는 종달리 마스코트! 저만의 에너지를 보여줄게요.",
+    "image": "profile6.png",
+    "id": 6,
+    "name": "송햇살"
+  },
+  {
+    "title": "삼둥이 엄마 솝희아 해녀 되다.",
+    "description": "아들만 셋, 삼둥이 엄마의 해녀 일지 놀러 오세요.",
+    "image": "profile7.png",
+    "id": 7,
+    "name": "솝희아"
+  },
 
-    {
-      "title": "직장에서 바다로 떠난 노건희 해녀.",
-      "description": "T 업계 경력자에서, 아기 해녀로 전향한 사연 알려드릴게요.",
-      "image": "profile8.png",
-      "id": 8
-    }
-  ]
-}
+  {
+    "title": "직장에서 바다로 떠난 노건희 해녀.",
+    "description": "T 업계 경력자에서, 아기 해녀로 전향한 사연 알려드릴게요.",
+    "image": "profile8.png",
+    "id": 8,
+    "name": "노건희"
+  }
+]
