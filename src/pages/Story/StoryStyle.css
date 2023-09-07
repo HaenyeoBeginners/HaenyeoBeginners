@@ -1,0 +1,72 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+:blue-main {
+    background-color: #608DF9;
+}
+
+.title {
+    text-align: center;
+    left: 50%;
+}
+
+.slider-container {
+    height: 100vh;
+    border: 3px solid;
+    position: relative;
+    margin-top: 0%;
+    bottom: 0%;
+}
+
+.reservation-btn {
+    margin-bottom: 0%;
+}
+
+.primary-btn {
+    text-align: center;
+    margin: 0 auto;
+    background-color: blue-main;
+    width: 100%;
+
+    position: relative;
+    margin-top: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.place {
+    font-size: x-large;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.address {
+    font-size: medium;
+}
+
+.okay {
+    display: flex;
+    width: 310px;
+    height: 52px;
+    padding: 14px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.reservationDone {
+    text-align: center;
+    align-self: center;
+}
+
+.haeonyeoImage {
+    margin-top: 15%;
+    width: 80px;
+    height: 80px;
+    align-self: center;
+}
