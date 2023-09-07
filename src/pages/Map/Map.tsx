@@ -4,6 +4,7 @@ import MakerImageSrc from "./map_icon.png";
 import HashButtonGroup from "../../components/HashButtonGroup/HashButtonGroup";
 import { useNavigate } from "react-router-dom";
 import Header from "../../components/Header/Header";
+import { ModalID } from "../../components/Modal/Modal";
 
 const { kakao } = window as any;
 
@@ -41,7 +42,11 @@ const positions = coordinates.map((c) => ({
 
 let map: any;
 
-export default function Map() {
+type Props = {
+  onClick: (btn: ModalID) => void;
+};
+
+export default function Map({ onClick }: Props) {
   const navigate = useNavigate();
   useEffect(() => {
     const container = document.getElementById("map");
@@ -68,7 +73,7 @@ export default function Map() {
       });
 
       kakao.maps.event.addListener(marker, "click", function () {
-        // 여기서 예약 시작.
+        onClick("BEFORE_RESERV");
       });
     }
   }, []);

@@ -1,0 +1,94 @@
+.section {
+  background-image: url("../../../public/images/story_bg.png");
+  overflow: scroll;
+  height: 100vh;
+  padding: 0 20px;
+}
+.section.hidden {
+  overflow: hidden;
+}
+
+.storyDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 22px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 5px;
+}
+
+.megaphone {
+  background-color: var(--white);
+  margin-bottom: 16px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300);
+}
+
+.megaphone svg {
+  margin-right: 16px;
+}
+
+.memo {
+  padding: 20px;
+  background-color: var(--white);
+  margin-top: 37px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300);
+  margin-bottom: 65px;
+}
+
+.memo h5 {
+  color: var(--blue-main);
+  margin-bottom: 5px;
+}
+.memo p {
+  line-height: 1.2rem;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.memo span {
+  color: var(--gray-500-info);
+  font-size: 14px;
+}
+
+.reservation {
+  background-color: var(--white);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.reservationCard {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 17px;
+}
+
+.reservationBtnContainer {
+  padding: 12px 20px 40px 20px;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+}
+
+.reservationBtn {
+  border-radius: 26px;
+  background-color: var(--blue-main);
+  width: 350px;
+  height: 52px;
+}
+
+.reservationCard img {
+  margin-right: 16px;
+}

@@ -1,0 +1,23 @@
+.title {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.address {
+  color: var(--gray-500-info);
+  margin-bottom: 32px;
+}
+
+.btnGroup {
+  display: flex;
+}
+
+.btnGroup button {
+  display: block;
+  width: 100%;
+  background-color: var(--blue-main);
+}
+
+.btnGroup button:first-child {
+  margin-right: 2px;
+}

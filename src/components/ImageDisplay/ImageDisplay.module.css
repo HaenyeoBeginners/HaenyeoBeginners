@@ -1,0 +1,18 @@
+.display {
+  width: 350px;
+  height: 210px;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.story1 {
+  background-image: url("../../../public/images/story1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.story2 {
+  background-image: url("../../../public/images/story2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
