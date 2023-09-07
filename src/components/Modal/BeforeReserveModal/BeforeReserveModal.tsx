@@ -1,7 +1,7 @@
 import React from "react";
 import Modal, { ModalID } from "../Modal";
 import mapUrl from "../main_map.png";
-import { Button } from "@goorm-dev/gds-goormthon";
+import { Button } from "reactstrap";
 import styles from "./BeforeReserveModal.module.css";
 
 type Props = {

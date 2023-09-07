@@ -11,7 +11,7 @@ import Profile4Image from "./profile4.png";
 import Profile6Image from "./profile6.png";
 import Profile5Image from "./profile5.png";
 import ImageDisplay from "../../components/ImageDisplay/ImageDisplay";
-import { Button } from "@goorm-dev/gds-goormthon";
+import { Button } from "reactstrap";
 import { ModalID } from "../../components/Modal/Modal";
 
 type Props = {

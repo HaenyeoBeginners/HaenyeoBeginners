@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileImage from "./profile5.png";
 import styles from "./StoryProfileCard.module.css";
-import { Badge } from "@goorm-dev/gds-goormthon";
+import { Badge } from "reactstrap";
 
 export default function StoryProfileCard() {
   return (

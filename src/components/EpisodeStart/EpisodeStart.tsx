@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./EpisodeStart.module.css";
 import personImg from "./person.png";
-import { Button } from "@goorm-dev/gds-goormthon";
+import { Button } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 
 export default function EpisodeStart() {

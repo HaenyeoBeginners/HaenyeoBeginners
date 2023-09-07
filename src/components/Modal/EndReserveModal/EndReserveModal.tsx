@@ -1,7 +1,7 @@
 import React from "react";
 import Modal, { ModalID } from "../Modal";
 import profileImg from "../profile3.png";
-import { Button } from "@goorm-dev/gds-goormthon";
+import { Button } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 import styles from "./EndReserveModal.module.css";
 

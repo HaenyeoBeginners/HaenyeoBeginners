@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@goorm-dev/gds-goormthon";
+import { Button } from "reactstrap";
 import styles from "./HashButton.module.css";
 
 type Props = {
@@ -14,7 +14,7 @@ export default function HashButton({ text, className, onClick, id }: Props) {
     <Button
       className={`${styles.hashBtn} ${styles[className]}`}
       onClick={onClick}
-      id={id}
+      id={String(id)}
     >
       {text}
     </Button>
