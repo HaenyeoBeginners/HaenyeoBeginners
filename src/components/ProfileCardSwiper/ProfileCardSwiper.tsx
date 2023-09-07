@@ -48,7 +48,11 @@ export default function ProfileCardSwiper() {
 
   return (
     <div className="">
-      <HashButtonGroup onClick={onClick} />
+      <HashButtonGroup
+        onClick={onClick}
+        transparent={true}
+        initClickedBtn={true}
+      />
       <div className={styles.swiperContainer}>
         <Swiper
           className={`mySwiper ${styles.swiper}`}

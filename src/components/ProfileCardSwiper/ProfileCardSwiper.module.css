@@ -1,9 +1,9 @@
 .swiperContainer {
   position: relative;
-  right: 2%;
   width: 350px;
   height: 300px;
-  margin-bottom: 36px;
+  margin: 0 auto 36px auto;
+  cursor: pointer;
 }
 
 .swiper {
