@@ -9,9 +9,20 @@
   border: 1px solid var(--gray-300);
 }
 
-.active {
-  background-color: tomato !important;
+.hashBtn:hover {
   border: 1px solid var(--blue-main) !important;
   background-color: var(--blue-main-transparent-24) !important;
   color: var(--blue-main) !important;
+}
+
+.active {
+  border: 1px solid var(--blue-main) !important;
+  background-color: var(--blue-main-transparent-24) !important;
+  color: var(--blue-main) !important;
+}
+
+.active-not-transparent {
+  border: 1px solid var(--blue-main) !important;
+  background-color: var(--blue-main) !important;
+  color: var(--white) !important;
 }
