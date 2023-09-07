@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Main from "./pages/Main";
-import Story from "./pages/Story";
-import Map from "./pages/Map";
+import Main from "./pages/Main/Main";
+import Story from "./pages/Story/Story";
+import Map from "./pages/Map/Map";
 
 function App() {
   return (
